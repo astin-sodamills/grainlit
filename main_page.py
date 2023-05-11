@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title("Hello, **Soda**!")
+st.title("Hello, :red[Soda]!")
 st.markdown("""
 ---
 ## Show something here
