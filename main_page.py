@@ -7,7 +7,7 @@ st.markdown("""
 ---  
 """)
 st.code("a=10\nb=100")
-df = pd.dataframe({
+df = pd.DataFrame({
   "name":["Eric","Bob","Tom"],
   "age":[12,15,11]
 })
