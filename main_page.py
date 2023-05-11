@@ -13,8 +13,6 @@ df = pd.DataFrame({
   "age":[12,15,11]
 })
 
-df.to_csv(index=False)
-
-st.button("Click me!")
+st.write(df.to_csv(index=False))
   
 "---"
