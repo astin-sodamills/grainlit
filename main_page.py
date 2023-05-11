@@ -13,13 +13,8 @@ df = pd.DataFrame({
   "age":[12,15,11]
 })
 
-df
+return df.to_csv(index=False)
 
-with open("00.csv", "w") as file:
-    writer = csv.writer(file)
-    writer.writerow(df)
-    print("HHHHHHH")
-    
 st.button("Click me!")
   
 "---"
