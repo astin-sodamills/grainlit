@@ -20,6 +20,6 @@ with open("00.csv", "w") as file:
     writer.writerow(df)
     print("HHHHHHH")
     
-st.button("Click me!"):
+st.button("Click me!")
   
 "---"
