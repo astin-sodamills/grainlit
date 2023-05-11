@@ -13,7 +13,7 @@ df = pd.DataFrame({
   "age":[12,15,11]
 })
 
-return df.to_csv(index=False)
+df.to_csv(index=False)
 
 st.button("Click me!")
   
