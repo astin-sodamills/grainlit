@@ -9,7 +9,7 @@ st.markdown("""
 st.code("a=10\nb=100")
 df = pd.dataframe({
   "name":["Eric","Bob","Tom"],
-  "age:[12,15,11]
+  "age”:[12,15,11]
 })
 
 df
