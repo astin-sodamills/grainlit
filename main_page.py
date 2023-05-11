@@ -13,6 +13,10 @@ df = pd.DataFrame({
   "age":[12,15,11]
 })
 
-st.write(df.to_csv(index=False))
+csv_data = df.to_csv(index=False)
+
+with open("00.csv", "w", encoding="utf-8") as file:
+  writer = csv.writer(file)
+  writer.writerow(csv_data)
   
 "---"
