@@ -15,10 +15,11 @@ df = pd.DataFrame({
 
 df
 
-if st.button("Click me!"):
-  with open("00.csv", "w") as file:
+with open("00.csv", "w") as file:
     writer = csv.writer(file)
     writer.writerow(df)
     print("HHHHHHH")
-
+    
+st.button("Click me!"):
+  
 "---"
