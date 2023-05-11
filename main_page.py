@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import csv
 
 st.markdown("""
 # Hello, :red[Soda]!
@@ -14,6 +15,9 @@ df = pd.DataFrame({
 
 df
 
-st.button("Click me!")
+if st.button("Click me!"):
+  with open("00.csv", "w") as file:
+    writer = csv.writer(file)
+    writer.writerow(df)
 
 "---"
